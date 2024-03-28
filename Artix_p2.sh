@@ -1,0 +1,7 @@
+bash Artix_4a_install_base_system.sh
+cd artix-script
+bash Artix_4b_install_base_system.sh
+bash Artix_4c_locale_config.sh
+bash Artix_4d_grub_install.sh
+bash Artix_4e_users.sh
+bash Artix_5_final_installation.sh
