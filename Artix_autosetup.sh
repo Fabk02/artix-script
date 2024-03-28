@@ -3,4 +3,4 @@ bash Artix_2_mkfs.sh
 bash Artix_3_fs_mounting.sh
 cp -r ../artix-script /mnt
 cd /mnt/artix-script
-bash Artix_p2.sh
+bash Artix_4a_install_base_system.sh
