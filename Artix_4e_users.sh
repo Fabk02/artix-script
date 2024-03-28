@@ -1,7 +1,3 @@
-passwd
-123
-123
+echo 'root:123' | chpasswd
 useradd -m user
-passwd user
-123
-123
+echo 'user:123' | chpasswd
