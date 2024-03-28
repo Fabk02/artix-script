@@ -5,5 +5,4 @@ echo "127.0.1.1     artix.localdomain artix" >> /etc/hosts
 pacman -S --noconfirm dhcpcd wpa_supplicant connman-runit
 ln -s /etc/runit/sv/connmand /etc/runit/runsvdir/default
 exit
-umount -R /mnt
 reboot
